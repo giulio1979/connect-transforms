@@ -4,7 +4,7 @@
 
     <groupId>com.redhat.insights.kafka</groupId>
     <artifactId>connect-transforms</artifactId>
-    <version>0.1.3-SNAPSHOT</version>
+    <version>0.1.4-SNAPSHOT</version>
 
     <name>Insights Kafka Connect Transforms</name>
     <description>A set of general-purpose SMTs developed as part of Red Hat Insights</description>
@@ -52,9 +52,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
 
-        <version.jackson>2.11.1</version.jackson>
+        <version.jackson>2.16.2</version.jackson>
         <version.junit>4.13</version.junit>
-        <version.kafka>2.0.0</version.kafka>
+        <version.kafka>3.9.0</version.kafka>
 
         <version.compiler.plugin>3.8.1</version.compiler.plugin>
         <version.deploy.plugin>2.8.2</version.deploy.plugin>
